@@ -4,7 +4,7 @@
 ```bash
 python -m venv venv
 .\venv\Scripts\activate
-```
+````
 
 ## Install dependencies
 
@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 Create a `.env` file in the project root with:
 
-```
+```env
 GOOGLE_API_KEY=your_google_gemini_api_key_here
 ```
 
@@ -57,12 +57,12 @@ python main.py
 
 ## Notes for deployment (e.g., Render.com)
 
-- Use the command:
+* Use the command:
 
 ```bash
 uvicorn main:app --host 0.0.0.0 --port $PORT
 ```
 
-- Ensure `uvicorn[standard]` is installed
+* Ensure `uvicorn[standard]` is installed
 
 ```

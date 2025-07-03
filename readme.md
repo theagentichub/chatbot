@@ -63,7 +63,3 @@ uvicorn main:app --host 0.0.0.0 --port $PORT
 ```
 
 - Ensure `uvicorn[standard]` is installed
-
-```
-
-```

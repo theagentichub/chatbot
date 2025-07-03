@@ -1,10 +1,9 @@
-````markdown
 ## Setup virtual environment (Windows)
 
 ```bash
 python -m venv venv
 .\venv\Scripts\activate
-````
+```
 
 ## Install dependencies
 
@@ -57,12 +56,14 @@ python main.py
 
 ## Notes for deployment (e.g., Render.com)
 
-* Use the command:
+- Use the command:
 
 ```bash
 uvicorn main:app --host 0.0.0.0 --port $PORT
 ```
 
-* Ensure `uvicorn[standard]` is installed
+- Ensure `uvicorn[standard]` is installed
+
+```
 
 ```

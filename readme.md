@@ -1,13 +1,10 @@
 ````markdown
-# FastAPI Gemini Chatbot - Running Instructions
-
 ## Setup virtual environment (Windows)
 
 ```bash
 python -m venv venv
 .\venv\Scripts\activate
 ```
-````
 
 ## Install dependencies
 
@@ -67,3 +64,5 @@ uvicorn main:app --host 0.0.0.0 --port $PORT
 ```
 
 - Ensure `uvicorn[standard]` is installed
+
+```
